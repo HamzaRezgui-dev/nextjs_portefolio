@@ -24,15 +24,9 @@ export default function Home() {
                         <div className="w-1/2 flex flex-col items-center self-center">
                             <AnimatedText text="Turning Vision Into Reality With Code."
                                           className="!text-6xl !text-left"/>
-                            <p className="my-4 text-base font-medium text-justify">As a skilled full-stack engineer, I
-                                am dedicated
-                                to turning ideas into innovative web applications. I have a strong passion for creating
-                                seamless user experiences and efficient back-end systems. With experience in both
-                                front-end and back-end development, I excel at building full-featured applications that
-                                are scalable, performant, and secure. I take pride in my ability to adapt to new
-                                challenges and continuously improve my craft. Explore my latest projects, where I
-                                demonstrate my ability to work across various domains and deliver high-quality
-                                solutions.
+                            <p className="my-4 text-base font-medium text-justify">
+                                I am a proficient full-stack developer committed to transforming concepts into
+                                cutting-edge web applications with intuitive interfaces and robust back-end systems.
                             </p>
                             <div className="flex items-center self-start mt-2">
                                 <Link href="/HamzaRezgui_CV.pdf" target={"_blank"}
