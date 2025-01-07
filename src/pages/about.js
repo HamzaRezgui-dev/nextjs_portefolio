@@ -5,6 +5,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/hmozman.jpeg"
 import {useInView, useMotionValue, useSpring} from "framer-motion";
+import Skills from "@/components/Skills";
 
 const AnimatedNumbers = ({value}) => {
     const ref = useRef(null);
@@ -94,6 +95,7 @@ const
                                 </div>
                             </div>
                         </div>
+                        <Skills/>
                     </Layout>
                 </main>
             </div>
