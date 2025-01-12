@@ -6,7 +6,9 @@ import Link from "next/link";
 import {GithubIcon} from "@/components/Icons";
 import project2 from "../../public/images/projects/microservices-ecommerce.png"
 import Image from "next/image";
+import {motion} from "framer-motion";
 
+const FramerImage = motion(Image)
 const FeaturedProject = ({type, title, img, summary, link, github}) => {
     return (
         <article
@@ -15,9 +17,12 @@ const FeaturedProject = ({type, title, img, summary, link, github}) => {
                 className="absolute top-0 -right-3 -z-10 w-[100%] h-[103%] rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light"/>
             <div className="w-1/2 cursor-pointer overflow-hidden">
                 {!img ?
-                    <video controls={true} src="/images/projects/demo.mp4"
-                           className="w-full h-auto"></video> :
-                    <Image src={img} alt={title} className="w-full h-auto"/>
+                    <motion.video whileHover={{scale: 1.03}} transition={{duration: 0.2}} controls={true}
+                                  src="/images/projects/demo.mp4"
+                                  className="w-full h-auto"></motion.video> :
+                    <FramerImage src={img} alt={title} className="w-full h-auto" priority
+                                 sizes="(max-width:768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                 whileHover={{scale: 1.05}} transition={{duration: 0.2}}/>
                 }
             </div>
             <div className="w-1/2 flex flex-col items-start justify-between pl-6 ">
@@ -50,7 +55,9 @@ const Project = ({title, img, link, github}) => {
                 {!img ?
                     <video controls={true} src="/images/projects/demo.mp4"
                            className="w-full h-auto"></video> :
-                    <Image src={img} alt={title} className="w-full h-auto"/>
+                    <FramerImage src={img} alt={title} className="w-full h-auto" priority
+                                 sizes="(max-width:768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                 whileHover={{scale: 1.05}} transition={{duration: 0.2}}/>
                 }
             </div>
             <div className="w-full flex flex-col items-start justify-between mt-4">
