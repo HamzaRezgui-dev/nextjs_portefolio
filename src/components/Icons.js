@@ -3,107 +3,28 @@ import * as React from "react"
 export const FacebookIcon = ({classname, ...rest}) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2em"
-        height="2em"
-        fill="none"
-        viewBox="0 0 32 32"
+        width='2em'
+        height='2em'
+        viewBox="0 0 48 48"
         className={`w-full h-auto ${classname}`}
         {...rest}
     >
-        <circle cx={16} cy={16} r={14} fill="url(#a)"/>
         <path
-            fill="#fff"
-            d="m21.214 20.282.622-3.952h-3.89v-2.563c0-1.081.542-2.136 2.284-2.136H22V8.267S20.395 8 18.86 8c-3.205 0-5.298 1.893-5.298 5.318v3.012H10v3.952h3.562v9.552a14.468 14.468 0 0 0 4.383 0v-9.552h3.269Z"
-        />
-        <defs>
-            <linearGradient
-                id="a"
-                x1={16}
-                x2={16}
-                y1={2}
-                y2={29.917}
-                gradientUnits="userSpaceOnUse"
-            >
-                <stop stopColor="#18ACFE"/>
-                <stop offset={1} stopColor="#0163E0"/>
-            </linearGradient>
-        </defs>
-    </svg>
-)
-
-export const InstagramIcon = ({classname, ...rest}) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="2em"
-        height="2em"
-        fill="none"
-        viewBox="0 0 32 32"
-        className={`w-full h-auto ${classname}`}
-        {...rest}
-    >
-        <rect width={28} height={28} x={2} y={2} fill="url(#a)" rx={6}/>
-        <rect width={28} height={28} x={2} y={2} fill="url(#b)" rx={6}/>
-        <rect width={28} height={28} x={2} y={2} fill="url(#c)" rx={6}/>
-        <path fill="#fff" d="M23 10.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
-        <path
-            fill="#fff"
-            fillRule="evenodd"
-            d="M16 21a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-            clipRule="evenodd"
+            fill="#3F51B5"
+            d="M42 37a5 5 0 0 1-5 5H11a5 5 0 0 1-5-5V11a5 5 0 0 1 5-5h26a5 5 0 0 1 5 5v26z"
         />
         <path
-            fill="#fff"
-            fillRule="evenodd"
-            d="M6 15.6c0-3.36 0-5.04.654-6.324a6 6 0 0 1 2.622-2.622C10.56 6 12.24 6 15.6 6h.8c3.36 0 5.04 0 6.324.654a6 6 0 0 1 2.622 2.622C26 10.56 26 12.24 26 15.6v.8c0 3.36 0 5.04-.654 6.324a6 6 0 0 1-2.622 2.622C21.44 26 19.76 26 16.4 26h-.8c-3.36 0-5.04 0-6.324-.654a6 6 0 0 1-2.622-2.622C6 21.44 6 19.76 6 16.4v-.8ZM15.6 8h.8c1.713 0 2.878.002 3.778.075.877.072 1.325.202 1.638.361a4 4 0 0 1 1.748 1.748c.16.313.29.761.36 1.638.074.9.076 2.065.076 3.778v.8c0 1.713-.002 2.878-.075 3.778-.072.877-.202 1.325-.361 1.638a4 4 0 0 1-1.748 1.748c-.313.16-.761.29-1.638.36-.9.074-2.065.076-3.778.076h-.8c-1.713 0-2.878-.002-3.778-.075-.877-.072-1.325-.202-1.638-.361a4 4 0 0 1-1.748-1.748c-.16-.313-.29-.761-.36-1.638C8.001 19.278 8 18.113 8 16.4v-.8c0-1.713.002-2.878.075-3.778.072-.877.202-1.325.361-1.638a4 4 0 0 1 1.748-1.748c.313-.16.761-.29 1.638-.36.9-.074 2.065-.076 3.778-.076Z"
-            clipRule="evenodd"
+            fill="#FFF"
+            d="M34.368 25H31v13h-5V25h-3v-4h3v-2.41c.002-3.508 1.459-5.59 5.592-5.59H35v4h-2.287C31.104 17 31 17.6 31 18.723V21h4l-.632 4z"
         />
-        <defs>
-            <radialGradient
-                id="a"
-                cx={0}
-                cy={0}
-                r={1}
-                gradientTransform="rotate(-55.376 27.916 .066) scale(25.5196)"
-                gradientUnits="userSpaceOnUse"
-            >
-                <stop stopColor="#B13589"/>
-                <stop offset={0.793} stopColor="#C62F94"/>
-                <stop offset={1} stopColor="#8A3AC8"/>
-            </radialGradient>
-            <radialGradient
-                id="b"
-                cx={0}
-                cy={0}
-                r={1}
-                gradientTransform="rotate(-65.136 29.766 6.89) scale(22.5942)"
-                gradientUnits="userSpaceOnUse"
-            >
-                <stop stopColor="#E0E8B7"/>
-                <stop offset={0.445} stopColor="#FB8A2E"/>
-                <stop offset={0.715} stopColor="#E2425C"/>
-                <stop offset={1} stopColor="#E2425C" stopOpacity={0}/>
-            </radialGradient>
-            <radialGradient
-                id="c"
-                cx={0}
-                cy={0}
-                r={1}
-                gradientTransform="matrix(38.50003 -5.5 1.1764 8.23476 .5 3)"
-                gradientUnits="userSpaceOnUse"
-            >
-                <stop offset={0.157} stopColor="#406ADC"/>
-                <stop offset={0.468} stopColor="#6A45BE"/>
-                <stop offset={1} stopColor="#6A45BE" stopOpacity={0}/>
-            </radialGradient>
-        </defs>
     </svg>
 )
 
 export const GithubIcon = ({className, ...rest}) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2.2em"
-        height="2.2em"
+        width="2em"
+        height="2em"
         viewBox="0 0 512 512"
         {...rest}
         className={`w-full h-auto ${className}`}
@@ -119,8 +40,8 @@ export const GithubIcon = ({className, ...rest}) => (
 export const LinkedInIcon = ({className, ...rest}) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2.2em"
-        height="2.2em"
+        width="2em"
+        height="2em"
         viewBox="0 0 256 256"
         {...rest}
         className={`w-full h-auto ${className}`}
