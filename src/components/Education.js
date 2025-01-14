@@ -36,14 +36,14 @@ const Education = () => {
     offset: ["start end", "center center"],
   });
   return (
-    <div className="my-20">
+    <div className="my-60">
       <h2 className="font-bold text-8xl mb-24 w-full text-center lg:text-7xl xs:text-5xl">
         Education
       </h2>
       <div ref={ref} className="w-[90%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light"
+          className="absolute left-9 md:left-7 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light"
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4">
           <Details

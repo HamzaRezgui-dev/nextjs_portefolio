@@ -52,20 +52,27 @@ const About = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                As a skilled full-stack engineer, I am dedicated to turning
-                ideas into innovative web applications. I have a strong passion
-                for creating seamless user experiences and efficient back-end
-                systems.
+                I am Hamza Rezgui, a passionate Fullstack Engineer with a strong
+                foundation in computer science and multimedia from the Higher
+                Institute of Multimedia Arts of Manouba (ISAMM). Over the years,
+                I’ve gained experience in creating innovative, high-performance
+                web solutions by working with cutting-edge technologies and
+                forward-thinking teams.
               </p>
               <p className="my-4 font-medium">
-                With experience in both front-end and back-end development, I
-                excel at building full-featured applications that are scalable,
-                performant, and secure. I take pride in my ability to adapt to
-                new challenges and continuously improve my craft.
+                Having collaborated with organizations like Fondative, Appaxis
+                Innovations, and Amen Bank, I’ve honed my skills in designing
+                robust authentication systems, interactive user interfaces,
+                secure payment integrations, and data-driven dashboards. My work
+                is defined by a commitment to reliability, scalability, and
+                user-focused design.
               </p>
               <p className="font-medium">
-                Explore my latest projects, where I demonstrate my ability to
-                work across various domains and deliver high-quality solutions.
+                I thrive on crafting meaningful software solutions and enjoy
+                every stage of the process, from ideation to deployment. You can
+                explore my portfolio for a glimpse of the projects I’ve brought
+                to life, and feel free to connect with me if you would like to
+                collaborate or discuss exciting ideas.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light  dark:bg-dark dark:border-light p-8 xl:col-span-4 md:order-1 md:col-span-8">
